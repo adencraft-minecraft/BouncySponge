@@ -1,0 +1,25 @@
+# # # # # # # #
+# +--------+  #
+# | CONFIG |  #
+# +--------+  #
+# # # # # # # #
+
+
+# Change the number higher for a higher launch - 2.5D is the default
+# ONLY MODIFY THAT NUMBER!!!
+launch: 2.5D
+#        ^ ONLY modify the (by default) 2.5
+#          Changind the "D" ma... No, WILL break the plugin!
+#
+#        ^
+#       / \
+#      /   \
+#     /  |  \
+#    /   o   \
+#   /         \
+#  /-----------\
+
+
+#Incase you broke it re-place the line with the default, The default is:
+
+#launch: 2.5D

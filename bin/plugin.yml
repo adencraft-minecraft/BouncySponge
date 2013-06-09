@@ -1,0 +1,10 @@
+name: BouncySponge
+main: com.adencraft2000.bouncysponge.BouncySponge
+authors: [adencraft2000]
+version: 1.3
+description: Makes sponges bouncy
+
+commands:
+  boingboingboingboingboing:
+    description: null
+    usage: /boingboingboingboingboing
