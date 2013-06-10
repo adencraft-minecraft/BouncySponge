@@ -4,22 +4,10 @@
 # +--------+  #
 # # # # # # # #
 
-
-# Change the number higher for a higher launch - 2.5D is the default
-# ONLY MODIFY THAT NUMBER!!!
-launch: 2.5D
-#        ^ ONLY modify the (by default) 2.5
-#          Changind the "D" ma... No, WILL break the plugin!
-#
-#        ^
-#       / \
-#      /   \
-#     /  |  \
-#    /   o   \
-#   /         \
-#  /-----------\
+#This is the config for BouncySponge (http://dev.bukkit.org/bukkit-mods/bouncysponge/)
 
 
-#Incase you broke it re-place the line with the default, The default is:
-
-#launch: 2.5D
+launch: 2.5 #The launch option for height (I have no testing as to how high the numbers are but 2.5 is default (Please always make ti something.5)
+#       /\
+#       |
+#       Must always end in .5

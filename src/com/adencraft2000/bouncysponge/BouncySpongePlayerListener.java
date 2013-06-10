@@ -36,7 +36,7 @@ public class BouncySpongePlayerListener implements Listener{
 				Block block = player.getLocation().getBlock().getRelative(BlockFace.DOWN);
 				if (block.getType() == Material.SPONGE) {
 					Vector dir = player.getLocation().getDirection().multiply(1.75);
-					Vector vec = new Vector(dir.getX(), this.getConfig().getDouble("launch"), dir.getZ());
+					Vector vec = new Vector(dir.getX(), plugin.getConfig().getDouble("launch"), dir.getZ());
 					player.setVelocity(vec);
 					
 				} 
