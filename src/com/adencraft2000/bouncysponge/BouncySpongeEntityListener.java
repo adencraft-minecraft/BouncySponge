@@ -39,7 +39,7 @@ public class BouncySpongeEntityListener implements Listener{
 					 ev.setCancelled(true);
 					 if (b.getType() == Material.SPONGE){
 						 Vector dir = player.getLocation().getDirection().multiply(1.75);
-						 Vector vec = new Vector(dir.getX(), this.getConfig().getString("launch"), dir.getZ());
+						 Vector vec = new Vector(dir.getX(), this.getConfig().getDouble("launch"), dir.getZ());
 						 player.setVelocity(vec);
 					 }
 				 }
