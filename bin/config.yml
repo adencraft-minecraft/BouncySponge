@@ -4,22 +4,15 @@
 # +--------+  #
 # # # # # # # #
 
+#This is the config for BouncySponge (http://dev.bukkit.org/bukkit-mods/bouncysponge/)
 
-# Change the number higher for a higher launch - 2.5D is the default
-# ONLY MODIFY THAT NUMBER!!!
-launch: 2.5D
-#        ^ ONLY modify the (by default) 2.5
-#          Changind the "D" ma... No, WILL break the plugin!
+
+launch: 2.5 #The height players should be launched (I have no testing as to how high the numbers are but 2.5 is default)
 #
-#        ^
-#       / \
-#      /   \
-#     /  |  \
-#    /   o   \
-#   /         \
-#  /-----------\
+#  URGENT!
+#
+# DO NOT SET THE "launch" VALUE TO A NUMBER HIGHER THAN 10!
+# DOING SO WILL CAUSE BUKKIT TO SPAM YOUR CONSOLE AND THE PLAYER TO BE STUCK!
 
 
-#Incase you broke it re-place the line with the default, The default is:
-
-#launch: 2.5D
+configversion: 1

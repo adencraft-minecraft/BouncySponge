@@ -1,10 +1,15 @@
 name: BouncySponge
 main: com.adencraft2000.bouncysponge.BouncySponge
 authors: [adencraft2000]
-version: 1.3
+version: 1.5
 description: Makes sponges bouncy
 
+permissions:
+    bouncysponge.jump:
+        default: true
+        description: Will be affected by BouncySponge.
+
 commands:
-  boingboingboingboingboing:
-    description: null
-    usage: /boingboingboingboingboing
+  bouncysponge:
+    description: shows info about bouncysponge
+    usage: /bouncysponge

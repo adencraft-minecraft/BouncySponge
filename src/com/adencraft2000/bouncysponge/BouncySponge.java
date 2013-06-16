@@ -5,6 +5,8 @@ import java.util.logging.Logger;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.*;
 import org.bukkit.configuration.file.*;
 import org.bukkit.configuration.serialization.*;
@@ -48,6 +50,15 @@ public class BouncySponge extends JavaPlugin{
 		log.info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
 		log.info("Thanks for using BouncySponge by adencraft2000");
 		log.info("http://dev.bukkit.org/server-mods/bouncysponge");
+		log.info("www.adencraft2000.com");
+		if (this.getConfig().getInt("configversion") == 1){
+			log.info("Your config file is up to date");
+		}
+		else{
+			log.warning("Your config file is not up to date.  Please delete your current file and restart the server");
+			log.warning("If you have done so and are still seeing this message please tell me and ignore this message");
+		}
 	}
+
 
 }

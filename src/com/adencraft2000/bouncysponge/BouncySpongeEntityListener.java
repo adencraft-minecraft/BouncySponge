@@ -37,14 +37,23 @@ public class BouncySpongeEntityListener implements Listener{
 				 Block b = player.getLocation().getBlock().getRelative(BlockFace.DOWN);
 				 if(b.getType() == Material.LAPIS_BLOCK || b.getType() == Material.SPONGE){
 					 ev.setCancelled(true);
-					 if (b.getType() == Material.SPONGE){
-						 Vector dir = player.getLocation().getDirection().multiply(1.75);
-						 Vector vec = new Vector(dir.getX(), plugin.getConfig().getDouble("launch"), dir.getZ());
-						 player.setVelocity(vec);
+					 if (b.getType() == Material.SPONGE) {
+							if (player.isSneaking()){
+							}
+							else{
+							Vector dir = player.getLocation().getDirection().multiply(1.75);
+							Vector vec = new Vector(dir.getX(), plugin.getConfig().getDouble("launch"), dir.getZ());
+							player.setVelocity(vec);
+							player.setNoDamageTicks(200);
+							
+					 
 					 }
 				 }
 			 }
 		 }
-	 }
 	 
+	 
+		 }
+	 }
 }
+

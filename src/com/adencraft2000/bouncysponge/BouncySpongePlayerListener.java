@@ -35,15 +35,19 @@ public class BouncySpongePlayerListener implements Listener{
 			if (player.hasPermission("bouncysponge.jump")) {
 				Block block = player.getLocation().getBlock().getRelative(BlockFace.DOWN);
 				if (block.getType() == Material.SPONGE) {
+					if (player.isSneaking()){
+					}
+					else{
 					Vector dir = player.getLocation().getDirection().multiply(1.75);
 					Vector vec = new Vector(dir.getX(), plugin.getConfig().getDouble("launch"), dir.getZ());
 					player.setVelocity(vec);
+					player.setNoDamageTicks(200);
 					
 				} 
 			}
 		}
 	}
 
-	
+	}
 
 }
