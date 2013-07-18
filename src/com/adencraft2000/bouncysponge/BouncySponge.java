@@ -48,8 +48,8 @@ public class BouncySponge extends JavaPlugin{
 		
 		PluginDescriptionFile pdfFile = this.getDescription();
 		log.info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
-		log.info("Thanks for using BouncySponge by adencraft2000");
-		log.info("http://dev.bukkit.org/server-mods/bouncysponge");
+		log.info("Thanks for using BouncySponge by adencraft2000 and kamehameha1");
+		log.info("http://dev.bukkit.org/bukkit-plugins/bouncysponge");
 		log.info("www.adencraft2000.com");
 		if (this.getConfig().getInt("configversion") == 1){
 			log.info("Your config file is up to date");
