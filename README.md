@@ -1,4 +1,4 @@
 BouncySponge
 ============
 
-Bukkit plugin that makessponges bouncy!
+Bukkit plugin that makes sponges bouncy!
