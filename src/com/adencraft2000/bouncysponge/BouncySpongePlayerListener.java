@@ -32,7 +32,7 @@ public class BouncySpongePlayerListener implements Listener{
 	public void onPlayerMove(PlayerMoveEvent ev){
 		if (!ev.getFrom().getBlock().getLocation().equals(ev.getTo().getBlock().getLocation())) {
 			Player player = ev.getPlayer();
-			if (player.hasPermission("bouncysponge.jump")) {
+			if (player.isOp() || player.hasPermission("bouncysponge.jump")) {
 				Block block = player.getLocation().getBlock().getRelative(BlockFace.DOWN);
 				if (block.getType() == Material.SPONGE) {
 					if (player.isSneaking()){
