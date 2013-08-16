@@ -1,7 +1,7 @@
 name: BouncySponge
 main: com.adencraft2000.bouncysponge.BouncySponge
 authors: [adencraft2000 and kamehameha1]
-version: 1.5
+version: 1.7
 description: Makes sponges bouncy
 
 permissions:
