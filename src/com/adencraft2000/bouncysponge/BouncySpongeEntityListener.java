@@ -1,5 +1,8 @@
 package com.adencraft2000.bouncysponge;
 
+import com.sk89q.worldedit.bukkit.*;
+import com.sk89q.worldedit.bukkit.selections.*;
+
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
