@@ -2,7 +2,7 @@ BouncySponge
 
 -=-=-=-=-=-
 
-Bukkit plugin by adencraft2000 and kamehameha1 that makes sponges bouncy!
+Bukkit plugin by adencraft2000 and kamehameha1 that makes sponges launch players!
 
 -=-=-=-=-=-
 
