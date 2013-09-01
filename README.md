@@ -28,4 +28,8 @@ Feel free to email me if you have any questions:
 
 adencraft@icloud.com
 
+Or use the contact form:
+
+http://adencraftminecraft.wufoo.com/forms/z7x4m1/
+
 -=-=-=-=-=-
