@@ -1,7 +1,8 @@
 name: BouncySponge
 main: com.adencraft2000.bouncysponge.BouncySponge
-authors: [adencraft2000]
-version: 1.5
+authors: [adencraft2000 and kamehameha1]
+version: 1.7
+depend: [WorldEdit]
 description: Makes sponges bouncy
 
 permissions:
