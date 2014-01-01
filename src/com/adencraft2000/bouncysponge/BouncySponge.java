@@ -2,9 +2,6 @@ package com.adencraft2000.bouncysponge;
 
 import java.util.logging.Logger;
 
-import com.sk89q.worldedit.bukkit.*;
-import com.sk89q.worldedit.bukkit.selections.*;
-
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -14,6 +11,9 @@ import org.bukkit.configuration.*;
 import org.bukkit.configuration.file.*;
 import org.bukkit.configuration.serialization.*;
 import org.bukkit.configuration.file.FileConfiguration;
+
+import com.sk89q.worldedit.bukkit.*;
+import com.sk89q.worldedit.bukkit.selections.*;
 
 public class BouncySponge extends JavaPlugin{
 
