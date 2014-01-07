@@ -33,7 +33,7 @@ public class BouncySpongeWorldEditListener implements Listener{
  } 
  
     // Do something with min/max //
-if (org.bukkit.cmd.getName().equalsIgnoreCase("cbjh")) {
+if (cmd.getName().equalsIgnoreCase("cbjh")) {
       if (player.isOp() || player.hasPermission("bouncysponge.cbjh"))
   
           
