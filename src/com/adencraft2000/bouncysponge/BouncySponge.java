@@ -11,6 +11,9 @@ import org.bukkit.configuration.*;
 import org.bukkit.configuration.file.*;
 import org.bukkit.configuration.serialization.*;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+
 
 import com.sk89q.worldedit.bukkit.*;
 import com.sk89q.worldedit.bukkit.selections.*;

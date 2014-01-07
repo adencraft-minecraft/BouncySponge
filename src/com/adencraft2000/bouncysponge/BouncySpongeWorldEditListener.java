@@ -13,6 +13,9 @@ import org.bukkit.configuration.*;
 import org.bukkit.configuration.file.*;
 import org.bukkit.entity.Player;
 import org.bukkit.event.*;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+
 
 public class BouncySpongeWorldEditListener implements Listener{
 	 BouncySponge plugin;
@@ -27,10 +30,14 @@ public class BouncySpongeWorldEditListener implements Listener{
     World world = (World) selection.getWorld();
         org.bukkit.Location min = selection.getMinimumPoint();
         org.bukkit.Location max = selection.getMaximumPoint(); 
- 
-        
+ } 
  
     // Do something with min/max //
-
+if (org.bukkit.cmd.getName().equalsIgnoreCase("cbjh")) {
+      if (player.isOp() || player.hasPermission("bouncysponge.cbjh"))
+  
+          
+    // "CBJH" means "Change Block Height" //    
+    
     // No selection available //
  
