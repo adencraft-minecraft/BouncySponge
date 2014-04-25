@@ -44,7 +44,6 @@ public class BouncySpongeEntityListener implements Listener{
 							Vector dir = player.getLocation().getDirection().multiply(1.75);
 							Vector vec = new Vector(dir.getX(), plugin.getConfig().getDouble("launch"), dir.getZ());
 							player.setVelocity(vec);
-							player.setNoDamageTicks(400);
 							
 					 
 					 }
