@@ -1,5 +1,6 @@
 package com.adencraft2000.bouncysponge;
 
+import java.io.IOException;
 import java.util.logging.Logger;
 
 import org.bukkit.plugin.PluginDescriptionFile;
@@ -14,9 +15,6 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
-
-import com.sk89q.worldedit.bukkit.*;
-import com.sk89q.worldedit.bukkit.selections.*;
 
 public class BouncySponge extends JavaPlugin{
 
@@ -62,6 +60,12 @@ public class BouncySponge extends JavaPlugin{
 		else{
 			log.warning("Your config file is not up to date.  Please delete your current file and restart the server");
 			log.warning("If you have done so and are still seeing this message please tell me and ignore this message");
+                        try {
+    Metrics metrics = new Metrics(this);
+    metrics.start();
+} catch (IOException e) {
+    // Failed to submit the stats :-(
+}
 		}
 	}
 
